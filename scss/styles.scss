@@ -1,0 +1,62 @@
+$color-primario: azure;
+$color-titulos-primario: blueviolet; 
+$padding-titulos: 30px ;
+$logos-redes-size: 50px;
+$background-color-secciones: rgba(0, 0, 0, 0.733); 
+
+.logo {
+    width: 40%;
+    
+}
+
+
+
+body {
+    background-color: rgb(92, 14, 165);
+    background-image: url(Imagenes/Fondo);
+}
+
+h2 {
+    color: $color-titulos-primario;
+    padding: ($padding-titulos + 5) + 5;
+    margin: 10px;
+
+}
+
+h3 {
+    color: $color-titulos-primario;
+    padding: $padding-titulos;
+
+}
+
+.ultimas-noticias {
+    background-color: $background-color-secciones;
+}
+
+.showcase {
+    padding: 100px;
+    border: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    color: $color-primario;
+}
+
+.socials-logo-1 {
+    width: $logos-redes-size;
+    height: $logos-redes-size;
+}
+
+.socials-logo-2 {
+    width: $logos-redes-size;
+    height: $logos-redes-size;
+}
+
+.socials-logo-3 {
+    width: $logos-redes-size;
+    height: $logos-redes-size;
+}

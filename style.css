@@ -1,0 +1,247 @@
+body {
+  background-color: rgb(133, 0, 133) ;
+  font-family: "poppins", sans-serif;
+  background-image: url(Imagenes/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-attachment: fixed;
+  
+}
+
+.navbar {
+    background-image: url(Imagenes/HD-wallpaper-dark-purple-blue-dark-purple.jpg);
+    
+}
+
+.post-info {
+    color: azure;
+}
+a {
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+  width: 50%;
+  padding: 10px 30px 20px 30px;
+  margin: 30px;
+}
+
+h1 {
+    color: azure;
+    padding: 30px;
+    
+    
+}
+
+h2 {
+    padding: 20px;
+    font-style: italic;
+    color: azure;
+    
+    
+}
+
+h3 {
+    color: azure;
+   
+}
+
+.ultimas-noticias {
+    background-color: rgba(0, 0, 0, 0.685);
+    
+}
+
+.ultimas-noticias-header {
+    color: blueviolet;
+}
+
+.index {
+    font-size: large;
+    background-size: 500px;
+    
+}
+
+.index-a {
+    color: azure;
+}
+.index-nav {
+    border: 2px solid;
+    background-image: url(Imagenes/360_F_317252997_PTMtgySTVs3OqZhQTb7FON73ZOas83CO.jpg);
+   
+    
+}
+
+.index-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+
+.showcase {
+     padding: 100px;
+     border: 20px;
+     margin: 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.showcase-imagenes:hover {
+     transform: scale(1.5);
+}
+
+.showcase-imagenes {
+    transition: all 0.5s;
+}
+
+.image-showcase-1 {
+   width: 75%;
+    
+    
+}
+
+.image-showcase-2 {
+    width: 75%;
+    
+  
+}
+
+.image-showcase-3 {
+    width: 75%;
+    
+}
+
+
+
+.spotify {
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.multicast-logo {
+    width: 50%;
+    
+}
+
+.podcast-title {
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+.twitter-iframe-index {
+    width: 50%;
+}
+
+.youtube {
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.youtube-container {
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.youtube-title {
+    color: blueviolet;
+}
+
+.youtube-header {
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.youtube-p {
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.twitter {
+    display: flex;
+    align-items: flex-end;
+}
+.socials {
+    
+    padding: 20px;
+    margin: 15px;
+    list-style-type: none; 
+    
+    
+    
+}
+
+.socials-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.socials-logo-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.socials-logo-2 {
+    width: 50px;
+    height: 50px;
+}
+
+.socials-logo-3 {
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+p {
+    color: azure;
+    
+}
+
+
+
+.twitter-iframe {
+    grid-column: 3;
+    grid-row: 1;
+}
+    
+.mas-leidos {
+    background-color: black;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
